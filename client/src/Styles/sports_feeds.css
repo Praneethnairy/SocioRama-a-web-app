@@ -1,0 +1,13 @@
+.icons{
+    background-color:rgb(228, 213, 192);
+    /* margin-top:40px; */
+    border-radius:20px;
+    /* height:48px; */
+    padding: 30px;
+    margin: 3vh 1vw 1vh 0;
+}
+
+.feeds:hover{
+    box-shadow: 5px 5px 5px 5px rgb(206, 201, 201);
+}
+

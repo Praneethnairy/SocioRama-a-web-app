@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* @media screen and (max-width: 800px){
+  .flexSignin{
+    margin: 0 1vw;
+    border-color: red;
+  }
+  
+} */
+.image1{
+  text-align: center;
+  margin: 11vh 0;
+}
+.flexSignin{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* margin:15vh 30vw; */
+  background-color: white;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border:6px inset black;
+  padding: 0 2vw;
+  margin: 0 3vw;
+}
+#img{
+  /* border: 6px solid black; */
+  border-radius: 200px;
+}
+.big_header{
+  color:black;
+  /* margin:6vh 2vw; */
+  font-family: 'IM Fell English SC', serif;
+  /* font-size:50px; */
+}
+
+.do{
+  font-size: small;
+  font-family: 'Titillium Web', sans-serif;
+  
+}
+
+.div1{
+  /* margin:15vh 30vw; */
+  background-color: white;
+  color:black;
+  padding:2vh 0vw;
+  /* border-radius: 5px;
+  border:6px inset whitesmoke; */
+  
+}
+
+.head{
+  color:black;
+  font-family: 'Inconsolata', monospace;
+}
+
+.div1{
+  text-align:center;
+  /* padding: 0 3vw; */
+}
+
+body{
+  background-color: whitesmoke;
+  /* background-size:cover; */
+}
+
+.footer{
+  color:black;
+  position: relative;
+  bottom:0;
+  text-align:center;
+  font-family: 'Ephesis', cursive;
+  font-size:x-large;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin:15vh 30vw; */
+  flex-wrap: wrap;
+  margin: 13vh 0;
+  text-align:center;
+  
+}
+
+input{
+  /* border-radius: 5px; */
+  padding:10px;
+  margin:2vh 2vw;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.button{
+  border-radius: 5px;
+  padding:10px;
+  margin:2vh 2vw;
+  background-color:rgb(74, 119, 202);
+  color:black;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+input:hover{
+  /* background-color: white; */
+  opacity:0.7;
+}
+
+button:hover{
+  opacity:0.7;
+}
+
